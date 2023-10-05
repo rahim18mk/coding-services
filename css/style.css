@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg, darkblue, rgb(255, 72, 0));
+}
+.contenair {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+label {
+    font-size: 1.3em;
+    font-style: italic;
+}
+input {
+    width: 90%;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.password {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    font-size: 1.5em;
+}
+button:hover {
+    background: whitesmoke;
+    color: darkblue;
+    cursor: pointer;
+}
